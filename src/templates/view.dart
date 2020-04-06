@@ -5,5 +5,12 @@ import 'action.dart';
 import 'state.dart';
 
 Widget buildView($nameState state, Dispatch dispatch, ViewService viewService) {
-  return Container();
+  return Scaffold(
+      appBar: AppBar(
+        leading:BackButton(),
+        title: Text('$name',),
+        elevation: 0,
+      ),
+      body:Text('$name')
+  );
 }
