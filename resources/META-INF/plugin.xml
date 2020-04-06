@@ -32,7 +32,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="FishReduxTemplate.ID" class="generator.GenerateFishReduxTemplateAction" text="FishReduxTemplate" icon="/image/icon.png"
+        <action id="FishReduxTemplate.ID" class="generator.GenerateFishReduxTemplateAction" text="FishRedux" icon="/image/icon.png"
             description="a plugin to generate Fish Redux template code">
             <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewDir"/>
         </action>
