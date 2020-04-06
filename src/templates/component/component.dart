@@ -8,6 +8,9 @@ import 'view.dart';
 class $nameComponent extends Component<$nameState> {
   $nameComponent()
       : super(
+            shouldUpdate: ($nameState oldState, $nameState newState) {
+              return true;
+            },
             effect: buildEffect(),
             reducer: buildReducer(),
             view: buildView,

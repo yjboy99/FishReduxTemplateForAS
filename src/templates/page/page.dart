@@ -8,6 +8,9 @@ import 'view.dart';
 class $namePage extends Page<$nameState, Map<String, dynamic>> {
   $namePage()
       : super(
+            shouldUpdate: ($nameState oldState, $nameState newState) {
+              return true;
+            },
             initState: initState,
             effect: buildEffect(),
             reducer: buildReducer(),

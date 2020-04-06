@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.bakerj.flutter.fishreduxtemplate.id</id>
-    <name>FishReduxTemplate</name>
-    <version>1.2.1</version>
+    <name>FishRedux</name>
+    <version>1.2.2</version>
     <vendor email="305317218@qq.com" url="https://github.com/BakerJQ/FishReduxTemplateForAS">BakerJ</vendor>
 
     <description><![CDATA[
